@@ -1,4 +1,9 @@
 # go-tdd
-learning Go fundamentals using the standard library and also applying tdd approach
+## learning Go fundamentals using:
+- standard library
+- tdd approach
+- golangci-lint
 
-source material: https://quii.gitbook.io/learn-go-with-tests/
+source materials: 
+https://quii.gitbook.io/learn-go-with-tests/
+https://freshman.tech/linting-golang/
