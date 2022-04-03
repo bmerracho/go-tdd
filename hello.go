@@ -9,7 +9,7 @@ const jpPrefix = "Konnichiwa, "
 const krPrefix = "Annyeonghaseyo, "
 
 func Hello(name, lang string) string {
-	if len(name) == 0 {
+	if name == "" {
 		name = "World"
 	}
 
@@ -25,6 +25,7 @@ func greetingPrefix(lang string) (prefix string) {
 	default:
 		prefix = enPrefix
 	}
+
 	return
 }
 func main() {
