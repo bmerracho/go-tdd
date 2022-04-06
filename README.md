@@ -1,4 +1,22 @@
-# go-tdd
-learning Go fundamentals using the standard library and also applying tdd approach
+# Test Driven Development with GO
+###### learning Go fundamentals using:
+- standard library
+- tdd approach
+- golangci-lint
 
-source material: https://quii.gitbook.io/learn-go-with-tests/
+### Running Tests
+```
+#bash
+go test ./... -v
+```
+
+
+### Install golangci-lint:
+```
+#bash
+go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
+```
+
+source materials: 
+https://quii.gitbook.io/learn-go-with-tests/
+https://freshman.tech/linting-golang/
