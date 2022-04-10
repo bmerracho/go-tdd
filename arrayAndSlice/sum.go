@@ -21,7 +21,11 @@ func SumAllTrails(numbersToSum ...[]int) []int {
 	var sum []int
 
 	for _, numbers := range numbersToSum {
-		sum = append(sum, Sum(numbers[1:]))
+		if len(numbers) == 0 {
+			sum = append(sum, 0)
+		} else {
+			sum = append(sum, Sum(numbers[1:]))
+		}
 	}
 
 	return sum
