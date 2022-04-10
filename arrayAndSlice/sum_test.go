@@ -26,3 +26,12 @@ func TestSumAll(t *testing.T) {
 		t.Errorf("want %v got %v", want, got)
 	}
 }
+
+func TestSumAllTrail(t *testing.T) {
+	got := SumAllTrails([]int{1, 2}, []int{5, 3})
+	want := []int{2, 3}
+
+	if !reflect.DeepEqual(got, want) {
+		t.Errorf("want %v got %v", want, got)
+	}
+}
